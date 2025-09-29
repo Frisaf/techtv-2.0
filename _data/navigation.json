@@ -1,0 +1,45 @@
+{
+    "categories": [
+        {
+            "text": "Gaming",
+            "subcategories": [
+                "Spelnyheter",
+                "Gamingtips",
+                "PC",
+                "Konsoll",
+                "Mobil"
+            ],
+            "type": "dropdown"
+        },
+        {
+            "text": "Hårdvara",
+            "subcategories": [
+                "Ny hårdvara",
+                "Retro",
+                "Mobiler",
+                "Bärbara datorer",
+                "Stationära datorer",
+                "Tablets",
+                "TV",
+                "Komponenter"
+            ],
+            "type": "dropdown"
+        },
+        {
+            "text": "Mjukvara",
+            "subcategories": [
+                "Design",
+                "Spelutveckling"
+            ],
+            "type": "dropdown"
+        },
+        {
+            "text": "Recensioner",
+            "url": ""
+        },
+        {
+            "text": "Teknikbranchen",
+            "url": ""
+        }
+    ]
+}

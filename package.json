@@ -12,7 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-img": "^6.0.4"
-  }
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frisaf/techtv-2.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frisaf/techtv-2.0/issues"
+  },
+  "homepage": "https://github.com/Frisaf/techtv-2.0#readme"
 }

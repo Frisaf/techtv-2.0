@@ -106,7 +106,7 @@ h1, h2 {
     font-size: 1.5rem;
 }
 
-.category {
+.category, .briefingText {
     color: #747474;
 }
 
@@ -114,8 +114,13 @@ h1, h2 {
     color: #575757;
 }
 
-.briefingText {
-    color: #747474;
+.briefingText a {
+    text-decoration: none;
+    color: inherit;
+    
+    :visited {
+        color: inherit;
+    }
 }
 
 .sidebar {
