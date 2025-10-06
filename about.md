@@ -43,7 +43,7 @@ Det som gör oss på Tech TV unika är att vi är centrerade på svensk teknik o
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17049.676106469105!2d12.92293945192015!3d57.71289879683747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465aa0b04bdcfeed%3A0x7c327e8fc1abfa59!2zQm9yw6Vz!5e0!3m2!1sen!2sse!4v1739884233130!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Ta kontakt med oss!
-För att kontakta Tech TV kan du antingen skicka ett mail till TechTV@mail.se, ringa oss på 070 420 69 69, skicka brev till:
+För att kontakta Tech TV kan du antingen skicka ett mail till TechTV@mail.se, ringa oss på 070 420 69 67, eller skicka brev till:
 
 <span>Tech TV</span><br>
 <span>Hittepågatan 69B</span><br>
