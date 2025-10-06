@@ -1,0 +1,34 @@
+{
+    "colours": [
+        {
+            "name": "Charleston Green",
+            "hex": "#2A2A2A",
+            "class": "charlestonGreen"
+        },
+        {
+            "name": "White Smoke",
+            "hex": "#F2F2F2",
+            "class": "whiteSmoke"
+        },
+        {
+            "name": "Egyptian Blue",
+            "hex": "#2E318A",
+            "class": "egyptianBlue"
+        },
+        {
+            "name": "Federal Blue",
+            "hex": "#140D4F",
+            "class": "federalBlue"
+        },
+        {
+            "name": "Deep Sky Blue",
+            "hex": "#43BDFF",
+            "class": "deepSkyBlue"
+        },
+        {
+            "name": "Emerald Green",
+            "hex": "#2DD881",
+            "class": "emerald"
+        }
+    ]
+}

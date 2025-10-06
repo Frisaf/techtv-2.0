@@ -5,6 +5,8 @@
     --federalBlue: #140D4F;
     --deepSkyBlue: #43BDFF;
     --emerald: #2DD881;
+    --mediumGrey: rgb(203, 203, 203);
+    --darkerGrey: #444;
     --ubuntuFont: "Ubuntu", serif;
     --jaroFont: "Jaro", sans-serif;
 }
@@ -40,6 +42,31 @@ h1, h2 {
     .content {
         width: 90%;
         display: block;
+    }
+}
+
+form {
+    width: 100%;
+    overflow: hidden;
+
+    input, textarea {
+        width: inherit;
+        padding: 10px;
+        font-family: inherit;
+        font-size: inherit;
+        border: none;
+        background-color: var(--mediumGrey);
+    }
+
+    button {
+        margin-top: 10px;
+        width: inherit;
+        font-size: inherit;
+        border: none;
+    }
+
+    button:hover {
+        cursor: pointer;
     }
 }
 
@@ -539,7 +566,7 @@ footer {
 
 .staff {
     display: flex;
-    width: 50%;
+    width: unset;
     margin-inline: auto;
     flex-wrap: wrap;
     justify-content: center;
@@ -607,6 +634,11 @@ footer {
     .articleDetails {
         color: rgb(176, 176, 176);
     }
+
+    form input, form textarea {
+        background-color: var(--darkerGrey);
+        color: rgb(229, 229, 229);
+    }
 }
 
 .darkIcon {
@@ -630,8 +662,7 @@ html[data-theme="light"] .lightIcon {
 
 .colorDisplay {
     display: flex;
-    gap: 0.5rem;
-    justify-content: space-evenly;
+    gap: 0.1rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -647,6 +678,7 @@ html[data-theme="light"] .lightIcon {
     min-width: 90px;
     text-align: center;
     padding-inline: 10px;
+    width: 100px;
 }
 
 .charlestonGreen {
@@ -691,6 +723,10 @@ html[data-theme="light"] .lightIcon {
 
 .slides {
   display: none;
+
+  img {
+    width: 100%;
+  }
 }
 
 .prev, .next {
@@ -838,4 +874,4 @@ iframe {
     position: absolute;
     white-space: nowrap; 
     width: 1px;
-  }
+}

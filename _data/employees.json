@@ -1,0 +1,34 @@
+{
+    "people": [
+        {
+            "name": "Ash Säfsten",
+            "role": "VD",
+            "image": "/images/ash.png",
+            "alt": "Person men censurerat ansikte."
+        },
+        {
+            "name": "Robert Andersson",
+            "role": "Chefredaktör",
+            "image": "/images/robertandersson.jpg",
+            "alt": "Man som ler och tittar in i kameran."
+        },
+        {
+            "name": "Agneta Stenström",
+            "role": "Reporter",
+            "image": "/images/agnetastenström.jpg",
+            "alt": "Kvinna som ler"
+        },
+        {
+            "name": "Greta Åberg",
+            "role": "Nyhetsankare",
+            "image": "/images/gretaåberg.jpg",
+            "alt": "Kvinna som ler och tittar in i kameran."
+        },
+        {
+            "name": "James Lång",
+            "role": "Producent",
+            "image": "/images/jameslång.jpg",
+            "alt": "Man som ler och tittar in i kameran."
+        }
+    ]
+}

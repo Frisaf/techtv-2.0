@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "text": "Nvidia",
+            "index": 1,
+            "image": "/images/nvidialanding.jpg",
+            "alt": "Screenshot av nvidia.com"
+        },
+        {
+            "text": "AMD",
+            "index": 2,
+            "image": "/images/amdlanding.jpg",
+            "alt": "Screenshot av amd.com"
+        },
+        {
+            "text": "Västerbottens-Kuriren",
+            "index": 3,
+            "image": "/images/vklanding.jpg",
+            "alt": "Screenshot av vk.se"
+        },
+        {
+            "text": "Sveriges Television (SVT)",
+            "index": 4,
+            "image": "/images/svtlanding.jpg",
+            "alt": "Screenshot av svt.se"
+        },
+        {
+            "text": "TechRadar",
+            "index": 5,
+            "image": "/images/techradarlanding.jpg",
+            "alt": "Screenshot av techradar.com"
+        }
+    ]
+}
