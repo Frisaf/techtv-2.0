@@ -38,6 +38,9 @@
                     <span class="articleDetails"><em>Reporter: {{ author }}</em></span>
                 {% endif %}
                 {{ content }}
+                {% if "posts" in tags %}
+                    {% include "read_more.njk" %}
+                {% endif %}
             </div>
         </div>
     </main>

@@ -1,6 +1,7 @@
 ---
 title: Vår Grafiska Profil
 layout: post_layout.html
+eleventyExcludeFromCollections: true
 ---
 Tech TV använder sig av minimalistiska och moderna ikoner med futuristisk design, som speglar ett professionellt företag.
 
@@ -54,3 +55,11 @@ Detta är ett skolarbete, och några av de hemsidor som inspirerat designen till
     <span class="dot" onclick="currentSlide(4)"></span>
     <span class="dot" onclick="currentSlide(5)"></span>
 </div>
+
+<noscript>
+    <ul>
+        {% for item in slides.items %}
+            <li><img src="{{ item.image }}" alt="{{ item.alt }}"></li>
+        {% endfor %}
+    </ul>
+</noscript>

@@ -1,6 +1,7 @@
 ---
 title: Formulär Skickat
 layout: post_layout.html
+eleventyExcludeFromCollections: true
 ---
 Tack för din feedback! Din åsikt är otroligt viktig för oss.
 

@@ -1,6 +1,7 @@
 ---
 title: Om oss
 layout: post_layout.html
+eleventyExcludeFromCollections: true
 ---
 ## Om sidan
 Detta är ett skolarbete. Orginalsidan till denna var skapad tidigare under 2025, men då med endast HTML, CSS och Javascript. Denna sida är Tech TV 2.0, en uppgradering! Den innehåller fler artiklar och support för mer dynamiska funktioner rent utvecklarmässigt. Sammanfattningsvis är denna version av Tech TV mycket bättre och smidigare än den förra.

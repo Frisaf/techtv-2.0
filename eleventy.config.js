@@ -9,9 +9,21 @@ export default function (eleventyConfig) {
 		return DateTime.fromJSDate(dateObj).setLocale("sv").toFormat(format)
 	})
 
-	eleventyConfig.addFilter("itemLimit", function(array, maximum) {
+	eleventyConfig.addFilter("itemLimit", (array, maximum) => {
     	return array.slice(0, maximum);
 	});
+
+	eleventyConfig.addFilter("randomLimit", (array, maximum, currentPage) => {
+		const pageArr = array.filter((page) => page.url !== currentPage);
+
+		pageArr.sort(() => {
+			return 0.5 - Math.random();
+		});
+
+		return pageArr.slice(0, maximum);
+	})
+
+	eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== exclude))
 
 	return {
 		markdownTemplateEngine: "njk",
