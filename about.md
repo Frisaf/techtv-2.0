@@ -22,7 +22,7 @@ Vi finansieras tack vare dig som väljer våra tjänster och köper våra veckot
 ## Produkter och Tjänster
 Vi erbjuder kanalen Tech TV som finns att nå på kanal 123 i din TV-apparat, en webbplats, en app i mobilen och en barnvänlig person som erbjuder allmänbildande nyheter i ett mer barnvänligt format. Vi erbjuder dessutom en veckotidning för de som föredrar att läsa sina nyheter analogt.
 
-<img src="/images/newspaper.jpg">
+<img src="/images/newspaper.jpg" alt="Person som läser en tidning.">
 
 ## Det som gör oss unika
 Det som gör oss på Tech TV unika är att vi är centrerade på svensk teknik och de tekniska framsteg som görs i Sverige. Många tekniktidningar riktar sig på internationella framsteg, vilket gör att många saker som händer i Sverige blir överskuggade av det som händer i exempelvis Silicon Valley. Vi vill främja Sverige i teknikens värld och få upp folks ögon för Tekniksverige.
@@ -32,7 +32,7 @@ Det som gör oss på Tech TV unika är att vi är centrerade på svensk teknik o
 <div class="staff">
     {% for person in employees.people %}
         <div class="staffInfo">
-            <img src="{{ person.image }}" alt="{{ person.alt }}">
+            <img eleventy:ignore src="{{ person.image }}" alt="{{ person.alt }}">
             <p><strong>{{ person.name }}</strong></p>
             <p>{{ person.role }}</p>
         </div>

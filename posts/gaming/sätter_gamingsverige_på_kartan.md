@@ -1,5 +1,5 @@
 ---
-title: Sätter gamingsverige på kartan
+title: Sätter Gamingsverige på kartan
 image: /images/woman.jpg
 alt: En brunhårig kvinna som står framför en stenvägg och tittar in i kameran.
 new: true

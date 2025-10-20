@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
                 <p class="category">{{ tag }}</p>
             {%- endif -%}
         {%- endfor -%}
-            <img src="{{ post.data.image }}" alt="{{ post.data.alt }}">
+            <img eleventy:ignore src="{{ post.data.image }}" alt="{{ post.data.alt }}">
             <div class="articleText">
                 {%- if post.data.new === true -%}
                     <span class="breaking">NYTT</span>

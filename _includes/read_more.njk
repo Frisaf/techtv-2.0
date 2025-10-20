@@ -4,7 +4,7 @@
     </div>
     <div class="readMoreContent">
         {% for post in collections.all | exclude("posts") %}
-            {% if post.data.tags == tags %}
+            {% if post.data.tags == tags and post.data.title != title %}
                 <a href="{{ post.url }}"><div class="readMorePost">
                     <img src="{{ post.data.image }}" alt="{{ post.data.alt }}">
                     <p>{{ post.data.title }}</p>

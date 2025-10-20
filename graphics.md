@@ -7,7 +7,7 @@ Tech TV använder sig av minimalistiska och moderna ikoner med futuristisk desig
 
 ## Logotyp och Typsnitt
 
-<img src="/images/logo.svg">
+<img eleventy:ignore src="/images/logo.svg" alt="Tech TV logga">
 
 Tech TV använder sig av två huvudsakliga typsnitt på sin sida:
 
@@ -40,7 +40,7 @@ Detta är ett skolarbete, och några av de hemsidor som inspirerat designen till
     {% for item in slides.items %}
         <div class="slides fade">
             <div class="numberText"><span>{{ item.index }} / 5</span></div>
-            <img src="{{ item.image }}" alt="{{ item.alt }}">
+            <img eleventy:ignore src="{{ item.image }}" alt="{{ item.alt }}">
             <div class="slideText"><span>{{ item.text }}</span></div>
         </div>
     {% endfor %}

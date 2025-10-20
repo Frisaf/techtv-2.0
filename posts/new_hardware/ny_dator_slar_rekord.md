@@ -1,6 +1,5 @@
 ---
 title: 'Ny dator slår rekord - "Har aldrig sett så hög FPS"'
-tags: ["Ny hårdvara"]
 image: "/images/laptop.jpg"
 alt: "Halvstängd bärbar dator på ett bord med färgstark belysning som reflekterar på bordet och datorn."
 new: true
@@ -9,7 +8,7 @@ author: Agneta Stenström
 ---
 En ny gaminglaptop har nyligen presenterats av Lenåwo på Den Stora Datormässan i Långtbortistan (DSDL), och den ska enligt Lenåwos presstalesperson kunna uppnå en FPS på en nivå aldrig tidigare skådad.
 
-<img src="{{ image }}" alt=" {{ alt }}">
+<img eleventy:ignore src="{{ image }}" alt=" {{ alt }}">
 
 *En konceptbild av datorn*
 
@@ -20,7 +19,7 @@ Olsson menar att detta projekt kan ta tid att färdigställa, men att datorn bö
 
 ## Hur sann är reklamen?
 
-<img src="/images/jonas_engberg.jpg" alt="Man som sitter bakom ett skrivbord och ler mot kameran.">
+<img eleventy:ignore src="/images/jonas_engberg.jpg" alt="Man som sitter bakom ett skrivbord och ler mot kameran.">
 
 *Jonas Engberg, dataexpert på Tech TV*
 

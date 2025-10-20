@@ -117,7 +117,11 @@ form {
 }
 
 .articleCard img {
-    width: 100%;
+    width:  100%;
+    height: 400px;
+    object-fit: cover;
+    justify-self: center;
+    
 }
 
 .articleCard .category {
@@ -899,6 +903,8 @@ iframe {
 
     .readMorePost {
         border: solid var(--deepSkyBlue);
+        max-width: 200px;
+        text-wrap: balance;
 
         img {
             width:  100%;

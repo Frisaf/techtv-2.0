@@ -10,7 +10,7 @@ author: Harald Brosten
 
 ## Hollow Knight: Silksong
 
-<img src="{{ image }}" alt="{{ alt }}">
+<img eleventy:ignore src="{{ image }}" alt="{{ alt }}">
 
 Idk man jag har inte spelat det. Det är åtminstone uppföljaren till Hollow Knight.
 
