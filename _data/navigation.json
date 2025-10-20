@@ -9,7 +9,8 @@
                 "Konsoll",
                 "Mobil"
             ],
-            "type": "dropdown"
+            "type": "dropdown",
+            "icon": "fa fa-gamepad"
         },
         {
             "text": "Hårdvara",
@@ -23,7 +24,8 @@
                 "TV",
                 "Komponenter"
             ],
-            "type": "dropdown"
+            "type": "dropdown",
+            "icon": "fa fa-desktop"
         },
         {
             "text": "Mjukvara",
@@ -31,15 +33,18 @@
                 "Design",
                 "Spelutveckling"
             ],
-            "type": "dropdown"
+            "type": "dropdown",
+            "icon": "fa fa-rocket"
         },
         {
             "text": "Recensioner",
-            "url": ""
+            "url": "",
+            "icon": "fa fa-book"
         },
         {
             "text": "Teknikbranschen",
-            "url": ""
+            "url": "",
+            "icon": "fa fa-briefcase"
         }
     ]
 }

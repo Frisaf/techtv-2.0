@@ -1,0 +1,30 @@
+ <div class="mobileNav">
+    <div id="sidePanel" class="sidePanelMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/"><i class="fa fa-home" aria-hidden="true"></i>
+            Hem</a>
+        {% for item in navigation.categories %}
+            {% if item.type == "dropdown" %}
+                <button class="sidePanelDropdownBtn">
+                    <i class="fa fa-caret-down"></i>
+                    <i class="{{ item.icon }}" aria-hidden="true"></i>
+                    {{ item.text }}
+                </button>
+                    <div class="sidePanelDropdownContainer">
+                        {% for sub in item.subcategories %}
+                            <a href="">{{ sub }}</a>
+                        {% endfor %}
+                    </div>
+                </li>
+            {% else %}
+               <a href=""><i class="{{ item.icon }}" aria-hidden="true"></i>
+            {{ item.text }}</a>
+            {% endif %}
+        {% endfor %}
+        <a href="/about"><i class="fa fa-info-circle" aria-hidden="true"></i>
+            Om oss</a>
+        <a href=""><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            Konto</a>
+        <p class="navSubscribe" id="mobileAd"><a href="">Prenumerera!</a></p>
+    </div>
+</div>
